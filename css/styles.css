@@ -70,4 +70,20 @@ div#collapsable-nav {
 .col-xs-12 {
     background-color: grey;
     margin-top: 20px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
+
+@media (max-width: 768px) {
+    .col-xs-12 {
+        margin-top: 20px;
+    }
+
+
+    .our-menu h2 {
+        margin-top: 210px;
+    }
+}
+
+
